@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <script src="https://kit.fontawesome.com/bd47c4dd95.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,700&display=swap');
@@ -42,7 +43,7 @@
             </ul>
         </nav>
 		<!-- start content -->
-        <div id="content" >
+        <div id="content" class="grid grid wide" >
             <!-- home -->
             <div class="tab-pane active" id="Home">
                 <div class="tab-pane__home position-relative">
@@ -78,7 +79,7 @@
                 </div>
               </div>
 <!-- about -->
-              <div class="tab-pane" id="About">
+              <div class="tab-pane grid wide" id="About">
                 
                 <div class="tab-pane__about">
 
@@ -88,7 +89,7 @@
                         Bước chân chùn lại không đi tiếp<br>
                         Cứ mãi quẩn quanh chẳng tiếng đàn…"
                     </p>
-                    <div class="d-flex justify-content-center">
+                    <!-- <div class="d-flex justify-content-center"> -->
                         <div class="d-lg-flex tab-pane__about-content">
     
                             <div class="col-lg-4">
@@ -154,13 +155,13 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    <!-- </div> -->
                 </div>
                 
               </div>
 <!-- skill -->
-              <div class="tab-pane " >
-                <div class="d-flex justify-content-center">
+              <div class="tab-pane grid wide" >
+                <!-- <div class="grid wide"> -->
                     <div class="tab-pane__skills-content">
                         <div class="skills__chart">
                             <div class="chart-item width-mb-100 height-tl-100 height-pc-100" >TRY HARD</div>
@@ -173,23 +174,18 @@
     
                     </div>
 
-                </div>
+                <!-- </div> -->
                 
               </div>
 <!-- sẻvice -->
-              <div class="tab-pane">
-                <div class="d-flex justify-content-center">
-                    <div class="tab-pane__skills-content">
-                    
-                        <h2>Đang hoàn thiện ...</h2>
-                    
-                    </div>
-                </div>
-               
+              <div class="tab-pane grid wide">                 
+                  <div class="tab-pane__skills-content">                  
+                      <h2>Đang hoàn thiện ...</h2>                
+                  </div>               
               </div>
 <!-- contact -->
-              <div class="tab-pane ">
-                <div class="d-flex justify-content-center">
+              <div class="tab-pane grid wide">
+                
 
                     <div class="tab-pane__contact-content">
     
@@ -229,7 +225,7 @@
         
                         </div>
                     </div>
-                </div>
+                
             </div>
               
         </div>

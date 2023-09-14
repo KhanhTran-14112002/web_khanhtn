@@ -78,10 +78,10 @@ top: 50px;
 /* start content */
 #content{
     
-    padding: 0 1.5rem;
+    
     padding-top: 70px;
-    padding-bottom: 20px;
     min-height: 600px;
+    padding-bottom: 20px;
 }
 .nav--menu-item.active{
     color: #c23564;
@@ -137,9 +137,7 @@ top: 50px;
     animation: AppearsBottom ease 2s;
 }
 /* start skills */
-.tab-pane__skills-content{
-    max-width: 1250px;
-}
+
 .skills__chart{
     
     height: 300px;
@@ -149,10 +147,7 @@ top: 50px;
     align-items: flex-end;
 }
 /* contect */
-.tab-pane__contact-content{
-    max-width: 1250px;
-    width: 100%;
-}
+
 .tab-pane__contact-content-infor{
     animation: AppearsRight ease 1.8s;
 
@@ -230,7 +225,7 @@ color: #f7f8f9;
    
     flex-direction: column;
     align-items: start;
-    width: 310px;
+    
     height: 360px;
     padding: 0.5rem;
     
@@ -260,7 +255,7 @@ color: #f7f8f9;
    
         
         align-items: end;
-        width: 600px;
+       
         height: 400px;
         padding: 0.5rem;
     }
@@ -287,7 +282,7 @@ color: #f7f8f9;
        }
     .skills__chart{       
         align-items: end;
-        width: 1000px;
+       
         height: 400px;
         padding: 0.5rem;
     }
