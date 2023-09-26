@@ -353,3 +353,16 @@ color: #f7f8f9;
         opacity: 1;
     }
 }
+.typing{
+    height: 100%;
+    width: 22ch;
+    text-wrap: nowrap;
+    overflow: hidden;
+    font-family: "Space Mono",monospace;
+    animation: Typing 3.5s steps(22) infinite alternate-reverse;
+}
+@keyframes Typing{
+    from{
+        width: 0ch;
+    }
+}
